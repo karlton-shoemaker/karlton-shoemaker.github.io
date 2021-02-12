@@ -8,6 +8,10 @@
     color: #57380F;
 }
 
+body{
+    background-color: burlywood;
+}
+
 html{
     font-size: 16px;
     margin-top: 3em;
@@ -16,6 +20,8 @@ html{
 header, main, footer{
     max-width: 920px;
     margin: 0 auto;
+    padding: 1em;
+    
 }
 
 h1, h2, h3{
@@ -23,7 +29,7 @@ h1, h2, h3{
 }
 
 header{
-    padding: 2em 0;
+    padding: 2em 1em;
 }
 
 #aboutMe img{
@@ -81,6 +87,7 @@ footer{
     color: #57380F;
     padding: 1em 0;
     text-align: center;
+    border-radius: 17px;
 }
 
 #projects{
