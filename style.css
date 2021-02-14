@@ -33,7 +33,7 @@ h1, h2, h3{
 }
 
 header{
-    padding: 2em 1em;
+    padding: 1em 1em;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -80,7 +80,7 @@ nav a:hover{
 
 section{
     margin: 1em 0;
-    padding-top: 3em;
+    padding-top: 2em;
     min-height: 20em;
 }
 
@@ -142,7 +142,7 @@ footer{
     grid-column: 1/4;
 }
 
-#contact > img{
+#contact > a, img{
     margin: auto;
     width: 150px;
     border-radius: 12px;
