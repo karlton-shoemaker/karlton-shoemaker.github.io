@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #D68924;
     color: #57380F;
 }
 
@@ -21,7 +20,12 @@ header, main, footer{
     max-width: 920px;
     margin: 0 auto;
     padding: 1em;
-    
+    background: #D68924;
+}
+
+main{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 h1, h2, h3{
@@ -30,10 +34,17 @@ h1, h2, h3{
 
 header{
     padding: 2em 1em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 #aboutMe img{
     width: 200px;
+    margin: 30px 5px 10px 15px;
+}
+#Headshot{
+    float: right;
+    border-radius: 7px;
 }
 
 header h1{
@@ -60,6 +71,7 @@ nav a{
     color: #57380F;
     text-decoration: none;
     padding: .5em 2em;
+    background: #D68924;
 }
 
 nav a:hover{
@@ -71,6 +83,7 @@ section{
     padding-top: 3em;
     min-height: 20em;
 }
+
 
 section > p{
     margin: 1em 0;
@@ -101,12 +114,41 @@ footer{
 }
 
 #projects article{
-    background: #D68924;
     padding: 1em;
+}
+
+.demos{
+    background: rgb(153, 146, 146);
+    border-radius: 15px;
 }
 
 #projects article img{
     width: 100%;
     max-height: 375px;
-    border: 1px solid #9D794A;
+    border: 1px solid #8A5918;
+    object-fit: cover;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#contact > h2{
+    grid-column: 1/4;
+}
+
+#contact > p{
+    grid-column: 1/4;
+}
+
+#contact > img{
+    margin: auto;
+    width: 150px;
+    border-radius: 12px;
+}
+
+#LinkedIn{
+    background: white;
+    border-radius: 12px;
 }
