@@ -1,0 +1,91 @@
+body{
+    background-color: #deed0e;
+    max-width: 60%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: #f51159;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #06cc09;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#bakerInfo{
+    display: none;
+    position: absolute;
+    top: 60px;
+    background-color: #06cc09;
+    max-width: 30%;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#modal{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#modalForeground{
+    background-color: white;
+    width: 60%;
+    margin:6em auto;
+    padding: 1em;
+}
+
+#close{
+    display: grid;
+    justify-content: right;
+}
+
+#donutPic{
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sassyComment{
+    text-align: center;
+}
+
+#donut{
+    text-align: center;
+}
+
+.autoBtn, .multiBtn{
+    background-color: #3e4f3f;
+}
+
+#purchases{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+#donut, #autoBox, #multiBox, #reset{
+    background-color: #02e4f0;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+#resetLink{
+    text-decoration: none;
+    color:black;
+}

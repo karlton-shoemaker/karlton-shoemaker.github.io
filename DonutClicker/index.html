@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Donut Machine</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="bakerLink" href="#">Fred the Baker Baking Co.</a>
+            <a href="https://orteil.dashnet.org/cookieclicker/">The Inspiration: Cookie Clicker</a>
+            <a id="contact" href="#">Contact</a>
+        </nav>
+        <div id="bakerInfo">Fred the Baker got his humble beginnings from taking anything he could find and baking into pies. He has now really moved on up to the donut-making world to the extent that he now has a veritable machine cranking out the donuts. Go ahead! Give it a shot!<br>
+            <a href="#">Hide</a>
+        </div>
+        <div id="modal">
+            <div id="modalForeground">
+                <span id="close">&times;</span>
+                <p>This donut-based JavaScript exercise was created by Karlton Shoemaker. See below for links to his portfolio and GitHub account.</p>
+                <p><a href="https://karlton-shoemaker.github.io/index.html">Personal Website</a></p>
+                <p><a href="https://github.com/karlton-shoemaker">GitHub Profile</a></p>
+                <p><a href="https://www.linkedin.com/in/karltonshoemaker/">LinkedIn</a></p>
+            </div>  
+        </div>
+    </header>
+    <main>
+        <section id="donut">
+            <p>Click the button for a donut:</p>
+            <div><button class="donutBtn">Donut</button></div>
+            <p>Your current donut count:</p>
+            <div class="count">0</div>
+        </section>
+        <br>
+        <p id="sassyComment">Or, if you're feelin' frisky, click the donut picture!</p>
+        <img id="donutPic" src="./images/donut.png">
+        <br>
+        <section id="purchases">
+            <div id="autoBox">
+                <p>Number of Auto-Clickers</p>
+                <div class="auto">0</div>
+                <br>
+                <div><button class="autoBtn">Buy Auto-Clicker</button></div>
+                <p>Cost for next Auto-Clicker</p>
+                <div class="autoPrice">100</div>
+            </div>
+            <div id=multiBox>
+                <p>Number of Multipliers</p>
+                <div class="multiplier">0</div>
+                <br>
+                <div><button class="multiBtn">Buy Multiplier</button></div>
+                <p>Cost for next Multiplier</p>
+                <div class="multiPrice">10</div>
+                <p>Current Multiplier</p>
+                <div class="incrementor">1.00</div>
+            </div>
+        </section>
+        <br>
+        <div id="reset"><button><a id="resetLink" href="">Reset Game</a></button></div>
+    </main>
+    <div class="container">
+        <div class="anchor"></div>
+    </div>
+    <script src="src/js/DonutMaker.js"></script>
+    <script src="src/js/app.js"></script>
+</body>
+</html>
